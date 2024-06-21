@@ -1,0 +1,33 @@
+.header-container {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px #262626;
+    padding: 10px 20px;
+}
+
+/* .header-container h3 {
+    margin-left: 20px;
+} */
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.header-buttons button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #262626;
+    color: #fff;
+}
+
+.header-buttons button:hover {
+    background-color: #6b6b6b;
+}

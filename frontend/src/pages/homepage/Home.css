@@ -1,0 +1,31 @@
+.homepage-container {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 0;
+}
+
+.links-container button {
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.links-container button:hover {
+    background-color: #262626;
+}
