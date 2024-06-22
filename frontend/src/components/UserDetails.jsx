@@ -11,7 +11,7 @@ const UserDetails = () => {
     useEffect(() => {
         const fetchUser = async () => {
             try {
-                const response = await fetch(`http://localhost:5000/users/${userId}`);
+                const response = await fetch(`http://127.0.0.1:5000/users/${userId}`);
                 if (!response.ok) {
                     throw new Error('Network response was not ok');
                 }
@@ -26,7 +26,7 @@ const UserDetails = () => {
     }, [userId]);
 
     const handleDelete = (taskId) => {
-        fetch(`http://localhost:5555/tasks/${taskId}`, {
+        fetch(`http://127.0.0.1:5000/tasks/${taskId}`, {
             method: 'DELETE',
         })
         .then(response => {

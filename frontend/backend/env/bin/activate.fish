@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/btsalwa/class/p4/Task-Management-System/backend/env"
+set -gx VIRTUAL_ENV "/home/btsalwa/class/p4/Task-Management-System/frontend/backend/env"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
